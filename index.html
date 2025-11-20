@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JDPhones — smart phones, street style.</title>
+    <meta name="description" content="JDPhones: curated phones & accessories chosen by JDH. Honest specs, fast local shipping.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Store",
+      "name": "JDPhones",
+      "url": "https://jdphones.example",
+      "logo": "https://jdphones.example/assets/logo.svg",
+      "description": "Curated phones & accessories picked by JDH.",
+      "sameAs": ["https://instagram.com/jdphones"]
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" as="style">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container site-header__container">
+            <a class="logo" href="/">JDPhones</a>
+
+            <form class="search" role="search" aria-label="Search products">
+                <input type="search" name="q" placeholder="Search phones, cases..." aria-label="Search products">
+            </form>
+
+            <nav class="site-header__icons" aria-label="Utility navigation">
+                <button class="icon-btn" aria-label="Open wishlist">
+                    <span aria-hidden="true">♡</span>
+                </button>
+                <a href="/cart" class="icon-btn" aria-label="View cart">
+                    <span aria-hidden="true">🛒</span>
+                    <span class="badge" aria-label="2 items in cart">2</span>
+                </a>
+                <button class="icon-btn site-header__menu-toggle" aria-label="Open menu">
+                    <span aria-hidden="true">☰</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero-section">
+            <div class="container hero-section__content">
+                <h1 class="hero-section__headline">JDPhones — smart phones, street style.</h1>
+                <p class="hero-section__subhead">Curated phones & accessories picked by **John Davey Harris (JDH)**.</p>
+                <div class="hero-section__ctas">
+                    <a href="/products" class="btn btn--primary">Shop Phones</a>
+                    <a href="/about" class="btn btn--secondary">Learn about JDH</a>
+                </div>
+            </div>
+            <figure class="hero-section__visual">
+                <img src="/assets/hero-phone-collage.jpg" alt="A collage of three JDPhones phones on a dark background." loading="eager">
+            </figure>
+        </section>
+
+        <section class="section-categories container">
+            <h2 class="visually-hidden">Quick Categories</h2>
+            <nav class="category-nav" aria-label="Product categories">
+                <a href="/products?cat=phones" class="category-nav__item">Phones</a>
+                <a href="/products?cat=cases" class="category-nav__item">Cases</a>
+                <a href="/products?cat=audio" class="category-nav__item">Audio</a>
+                <a href="/products?cat=chargers" class="category-nav__item">Chargers</a>
+                <a href="/products?cat=jdh-picks" class="category-nav__item category-nav__item--accent">JDH Picks</a>
+            </nav>
+        </section>
+
+        <section class="section-featured container">
+            <h2 class="section-featured__title">🔥 JDH's Latest Drop</h2>
+            <div class="product-grid">
+                <article class="product-card" data-product-id="nova5g" itemscope itemtype="https://schema.org/Product">
+                    <a href="/products/nova5g" class="product-card__link" aria-label="JDH Nova 5G">
+                        <figure class="product-card__figure">
+                            <img src="/assets/product-nova5g-1.jpg" srcset="/assets/product-nova5g-1_400.jpg 400w, /assets/product-nova5g-1_800.jpg 800w" sizes="(max-width: 600px) 50vw, 25vw" alt="Image of JDH Nova 5G phone." loading="lazy" itemprop="image">
+                            <div class="product-card__badge product-card__badge--new">NEW</div>
+                        </figure>
+                        <h3 class="product-card__title" itemprop="name">JDH Nova 5G</h3>
+                    </a>
+                    <div class="product-card__details">
+                        <p class="product-card__spec-hint">6.7" OLED / 128GB/256GB</p>
+                        <div class="product-card__price-rating">
+                            <data value="799" class="product-card__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">799 € <meta itemprop="price" content="799"><meta itemprop="priceCurrency" content="EUR"></data>
+                            <div class="product-card__rating" aria-label="4 and a half out of 5 stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                                <span aria-hidden="true">★★★★☆</span>
+                                <meta itemprop="ratingValue" content="4.5">
+                                <meta itemprop="reviewCount" content="210">
+                            </div>
+                        </div>
+                        <button class="btn btn--quick-add" data-product-id="nova5g" aria-label="Quick add JDH Nova 5G to cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-product-id="bladebookpro" itemscope itemtype="https://schema.org/Product">
+                    <a href="/products/bladebookpro" class="product-card__link" aria-label="JDH BladeBook Pro">
+                        <figure class="product-card__figure">
+                            <img src="/assets/product-bladebookpro-1.jpg" srcset="/assets/product-bladebookpro-1_400.jpg 400w, /assets/product-bladebookpro-1_800.jpg 800w" sizes="(max-width: 600px) 50vw, 25vw" alt="Image of JDH BladeBook Pro laptop." loading="lazy" itemprop="image">
+                        </figure>
+                        <h3 class="product-card__title" itemprop="name">JDH BladeBook Pro</h3>
+                    </a>
+                    <div class="product-card__details">
+                        <p class="product-card__spec-hint">JDS Core i7 / 16GB RAM</p>
+                        <div class="product-card__price-rating">
+                            <data value="1299" class="product-card__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">1299 € <meta itemprop="price" content="1299"><meta itemprop="priceCurrency" content="EUR"></data>
+                            <div class="product-card__rating" aria-label="4 and a half out of 5 stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                                <span aria-hidden="true">★★★★☆</span>
+                                <meta itemprop="ratingValue" content="4.6">
+                                <meta itemprop="reviewCount" content="15">
+                            </div>
+                        </div>
+                        <button class="btn btn--quick-add" data-product-id="bladebookpro" aria-label="Quick add JDH BladeBook Pro to cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                </div>
+            <a href="/products" class="btn btn--secondary btn--centered">View All Products</a>
+        </section>
+
+        <section class="section-trust">
+            <div class="container">
+                <h2 class="section-trust__title">Why JDPhones?</h2>
+                <div class="trust-grid">
+                    <div class="trust-card">
+                        <span class="trust-card__icon" aria-hidden="true">💡</span>
+                        <h3 class="trust-card__headline">Honest Specs</h3>
+                        <p>No shady fine print. Clear specs, zero bloatware, and honest reviews. Just the tech you need.</p>
+                    </div>
+                    <div class="trust-card">
+                        <span class="trust-card__icon" aria-hidden="true">🚀</span>
+                        <h3 class="trust-card__headline">Fast Local Shipping</h3>
+                        <p>Get your gear fast. We prioritize speed and reliable, tracked delivery to your door.</p>
+                    </div>
+                    <div class="trust-card">
+                        <span class="trust-card__icon" aria-hidden="true">🛡️</span>
+                        <h3 class="trust-card__headline">30-Day Return</h3>
+                        <p>Not vibing with your new tech? Send it back. Full refund on unused items, no hassle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-email-capture">
+            <div class="container email-capture-strip">
+                <h2 class="email-capture-strip__title">Level Up Your Inbox</h2>
+                <p class="email-capture-strip__promise">JDH drops weekly tips, hidden deals, and new gear alerts.</p>
+                <form class="email-capture-strip__form">
+                    <input type="email" name="email" placeholder="Enter your email address" required aria-label="Email address for newsletter signup">
+                    <label class="email-capture-strip__consent">
+                        <input type="checkbox" name="promo_consent" required>
+                        <span>Yes, send me the good stuff (deals & tips).</span>
+                    </label>
+                    <button type="submit" class="btn btn--primary">Sign Up</button>
+                    <p class="email-capture-strip__privacy-note">We value your privacy. Unsubscribe anytime.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="section-reviews container">
+            <h2 class="section-reviews__title">What the community says</h2>
+            <div class="reviews-carousel">
+                <blockquote class="review-card">
+                    <p class="review-card__quote">"The Nova 5G is the best phone I've owned at this price point. Clean look, super fast, and battery lasts forever."</p>
+                    <div class="review-card__meta">
+                        <div class="review-card__stars" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+                        <cite class="review-card__author">— Alex from Milan</cite>
+                    </div>
+                </blockquote>
+                </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__container">
+            <nav class="site-footer__nav" aria-label="Footer navigation">
+                <div class="site-footer__links-col">
+                    <h4 class="site-footer__heading">Shop</h4>
+                    <ul>
+                        <li><a href="/products">Products</a></li>
+                        <li><a href="/products?cat=phones">Phones</a></li>
+                        <li><a href="/products?cat=laptops">Laptops</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer__links-col">
+                    <h4 class="site-footer__heading">JDPhones</h4>
+                    <ul>
+                        <li><a href="/about">About JDH</a></li>
+                        <li><a href="/contact">Contact / Support</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer__links-col">
+                    <h4 class="site-footer__heading">Legal</h4>
+                    <ul>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/shipping">Shipping & Returns</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="site-footer__social">
+                <h4 class="site-footer__heading">Connect</h4>
+                <a href="#" aria-label="Join us on Discord">🎮</a>
+                <a href="#" aria-label="Follow us on Instagram">📸</a>
+            </div>
+        </div>
+        <div class="site-footer__copyright container">
+            <p>&copy; 2025 JDPhones / John Davey Harris. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple placeholder to toggle the menu/search on mobile
+        document.querySelector('.site-header__menu-toggle').addEventListener('click', () => {
+            alert('Menu / Mobile Sidebar Toggle Functionality');
+        });
+
+        // Simple placeholder for add to cart
+        document.querySelectorAll('.btn--quick-add').forEach(button => {
+            button.addEventListener('click', () => {
+                const productId = button.getAttribute('data-product-id');
+                alert(`Added ${productId} to cart. Cart badge would update.`);
+            });
+        });
+    </script>
+</body>
+</html>

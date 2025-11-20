@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nova5g",
+    "name": "JDH Nova 5G",
+    "tagline": "Curated by JDH",
+    "category": "Phones",
+    "price": 799,
+    "storage": "128GB/256GB",
+    "spec_hint": "6.7\" OLED",
+    "rating": 4.5,
+    "slug": "/products/nova5g",
+    "is_new": true
+  },
+  {
+    "id": "vegax",
+    "name": "JDH Vega X",
+    "tagline": "Curated by JDH",
+    "category": "Phones",
+    "price": 899,
+    "storage": "256GB",
+    "spec_hint": "6.5\" AMOLED",
+    "rating": 4.8,
+    "slug": "/products/vegax",
+    "is_new": false
+  },
+  {
+    "id": "bladebookpro",
+    "name": "JDH BladeBook Pro",
+    "tagline": "Power-user laptop",
+    "category": "Laptops / PCs",
+    "price": 1299,
+    "storage": "512GB SSD",
+    "spec_hint": "JDS Core i7, 16GB RAM",
+    "rating": 4.6,
+    "slug": "/products/bladebookpro",
+    "is_new": true
+  },
+  {
+    "id": "vision27",
+    "name": "JDH Vision 27\"",
+    "tagline": "High-refresh gaming",
+    "category": "Monitors",
+    "price": 349,
+    "storage": "2560x1440",
+    "spec_hint": "144Hz",
+    "rating": 4.2,
+    "slug": "/products/vision27",
+    "is_new": false
+  },
+  {
+    "id": "keypro",
+    "name": "JDH KeyStorm Pro",
+    "tagline": "Customizable keyboard",
+    "category": "Keyboards",
+    "price": 159,
+    "storage": "Hot-swappable",
+    "spec_hint": "Mechanical",
+    "rating": 4.7,
+    "slug": "/products/keystormpro",
+    "is_new": true
+  }
+]
